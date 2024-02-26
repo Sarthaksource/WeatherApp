@@ -1,6 +1,5 @@
-
-
-console.log(process.env);
+require('dotenv').config()
+console.log(process.env)
 
 const apiKey = process.env.APIKEY;
 const weatherForm = document.querySelector(".weatherForm");
