@@ -1,4 +1,4 @@
-const apiKey = $API_KEY;
+const apiKey = process.env.WEATHER_API_KEY;
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
