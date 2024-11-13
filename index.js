@@ -1,7 +1,4 @@
-require('dotenv').config()
-console.log(process.env)
-
-const apiKey = process.env.APIKEY;
+const apiKey = $API_KEY;
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
